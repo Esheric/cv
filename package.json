@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "repo10-cv",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass -w scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Esheric/repo10-cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Esheric/repo10-cv/issues"
+  },
+  "homepage": "https://github.com/Esheric/repo10-cv#readme",
+  "dependencies": {
+    "sass": "^1.49.10"
+  }
+}
