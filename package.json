@@ -4,7 +4,7 @@
   "description": "repo10-cv",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss -o css"
+    "sass": "sass -w scss:css"
   },
   "repository": {
     "type": "git",
