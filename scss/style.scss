@@ -109,4 +109,12 @@ aside {
 
 main {
   grid-area: main;
+  padding: 5rem;
+  h2 {
+    margin-bottom: 4rem;
+  }
+  p {
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
+  }
 }

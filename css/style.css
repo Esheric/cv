@@ -157,6 +157,14 @@ aside .block .social-container p {
 
 main {
   grid-area: main;
+  padding: 5rem;
+}
+main h2 {
+  margin-bottom: 4rem;
+}
+main p {
+  letter-spacing: 0.1rem;
+  line-height: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
