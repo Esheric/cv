@@ -89,6 +89,21 @@ aside {
         margin: 0 1rem;
       }
     }
+    .social-container {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      margin: 2rem 0;
+      i {
+        font-size: 2rem;
+        flex: 0 0 50px;
+        margin-right: 1rem;
+      }
+      p {
+        flex: auto;
+        margin: 0;
+      }
+    }
   }
 }
 
