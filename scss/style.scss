@@ -57,6 +57,38 @@ aside {
       margin: 0 0 2rem 0;
       font-style: italic;
     }
+    .bar-skill {
+      margin: 2rem 0;
+      height: 5px;
+      background: var(--hint);
+      position: relative;
+      .bar-skill-progress {
+        position: absolute;
+        height: 5px;
+        width: 80%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(to right, var(--light) 50%, var(--primary));
+      }
+      .bar-skill-dot {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        top: -2.5px;
+        left: calc(80% - 5px);
+        transform: rotate(45deg);
+        background: var(--dark);
+      }
+    }
+    .stars-container {
+      display: flex;
+      margin: 2rem 0 3rem 0;
+      color: var(--hint);
+      i {
+        font-size: 2rem;
+        margin: 0 1rem;
+      }
+    }
   }
 }
 
